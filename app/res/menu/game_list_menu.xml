@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_game_list_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="1"
+        android:showAsAction="always|collapseActionView"
+        android:title="Search">
+    </item>
+    <item
+        android:id="@+id/menu_game_list_sort"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Sort">
+        <menu>
+            <item
+                android:id="@+id/menu_game_list_sort_title"
+                android:title="Title"/>
+            <item
+                android:id="@+id/menu_game_list_sort_published"
+                android:title="Published"/>
+            <item
+                android:id="@+id/menu_game_list_sort_region"
+                android:title="Region"/>
+            <item
+                android:id="@+id/menu_game_list_sort_genre"
+                android:title="Genre"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_game_list_filter"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="3"
+        android:showAsAction="always|collapseActionView"
+        android:title="Add filter">
+    </item>
+
+</menu>

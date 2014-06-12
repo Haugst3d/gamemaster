@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.livingcode.android.gamemaster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".GameMasterSplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameMasterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".CollectionActivity"
+            android:label="Collection"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".CollectionGameActivity"
+            android:label="Collection Game"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".ConsoleListActivity"
+            android:label="Consoles"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".GameListActivity"
+            android:label="Games"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".GameFilterActivity"
+            android:label="Game Filter Setup"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+        <activity
+            android:name=".GameViewActivity"
+            android:label="Game Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gbc" />
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.fortysevendeg.android.swipelistview.SwipeListView
+        xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="#00000000"
+        swipe:swipeAnimationTime="0"
+        swipe:swipeBackView="@+id/game_list_activity_row_layout_back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/game_list_activity_row_layout_front"
+        swipe:swipeOffsetRight="71dp" />
+
+    <LinearLayout
+        android:id="@+id/game_list_activity_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="#222222"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/game_list_activity_bottom_top_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textIsSelectable="false"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/game_list_activity_bottom_bottom_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textIsSelectable="false"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

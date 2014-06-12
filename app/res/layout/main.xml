@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="12dp" >
+
+    <RelativeLayout
+        android:id="@+id/main_collection_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/main_collection_no_collection_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have not yet started a collection. Pick a console or game to get started on expanding your collection."
+            android:textColor="#666666"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonCollection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="My Collection"
+            android:textColor="@color/actionbar_title_color"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_navigation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp" >
+
+        <Button
+            android:id="@+id/buttonGamesList"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="Games"
+            android:textColor="@color/actionbar_title_color" />
+
+        <Button
+            android:id="@+id/buttonHardwareList"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="Hardware"
+            android:textColor="@color/actionbar_title_color" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/main_database_load_progress"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription=""
+            android:padding="50dp"
+            android:src="@drawable/indeterminate_gb_loader" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Loading" />
+    </RelativeLayout>
+
+</LinearLayout>

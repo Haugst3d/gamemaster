@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_menu_reload_all"
+        android:title="Reload database">
+    </item>
+    <item
+        android:id="@+id/main_menu_reset_collection"
+        android:title="Reset collection">
+    </item>
+
+</menu>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/dialog_game_list_view_game_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/dialog_game_list_view_game_releasedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/dialog_game_list_view_game_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genre" />
+
+    <TextView
+        android:id="@+id/dialog_game_list_view_game_platform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Platform" />
+
+    <TextView
+        android:id="@+id/dialog_game_list_view_game_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Region" />
+
+    <LinearLayout
+        android:id="@+id/dialog_game_list_view_game_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_game_list_view_game_btnCollection"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/dialog_game_list_view_game_btnClose"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Close" />
+
+        <Button
+            android:id="@+id/dialog_game_list_view_game_btnDetails"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Details" />
+    </LinearLayout>
+
+</LinearLayout>

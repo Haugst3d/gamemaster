@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consoles>
+    <console id="1" code="NES">
+        <name>Nintendo Entertainment System</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="2" code="FAM">
+        <name>Nintendo Famicom</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="3" code="SNES">
+        <name>Super Nintendo Entertainment System</name>
+        <hardware>
+            <type>SIXTEEN_BIT</type>
+        </hardware>
+    </console>
+    <console id="4" code="SFAM">
+        <name>Nintendo Super Famicom</name>
+        <hardware>
+            <type>SIXTEEN_BIT</type>
+        </hardware>
+    </console>
+    <console id="5" code="A2600">
+        <name>Atari 2600</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="6" code="A5200">
+        <name>Atari 5200</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="7" code="A7400">
+        <name>Atari 7400</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="8" code="GB">
+        <name>Nintendo Game Boy</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="9" code="SMS">
+        <name>Sega Master System</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="10" code="SMSII">
+        <name>Sega Master System II</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="11" code="SMD">
+        <name>Sega Mega Drive</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+    <console id="12" code="SMDII">
+        <name>Sega Mega Drive II</name>
+        <hardware>
+            <type>SIXTEEN_BIT</type>
+        </hardware>
+    </console>
+    <console id="13" code="SCD">
+        <name>Sega CD</name>
+        <hardware>
+            <type>SIXTEEN_BIT</type>
+        </hardware>
+    </console>
+    <console id="14" code="SCDII">
+        <name>Sega CD II</name>
+        <hardware>
+            <type>SIXTEEN_BIT</type>
+        </hardware>
+    </console>
+    <console id="15" code="SGG">
+        <name>Sega Game Gear</name>
+        <hardware>
+            <type>EIGHT_BIT</type>
+        </hardware>
+    </console>
+</consoles>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Region" />
+
+    <Spinner
+        android:id="@+id/spinnerRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textConsole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Console" />
+
+    <Spinner
+        android:id="@+id/spinnerConsole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/textReleased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Released" />
+
+    <EditText
+        android:id="@+id/editReleased"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer" />
+
+    <Spinner
+        android:id="@+id/spinnerDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textPublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publisher" />
+
+    <Spinner
+        android:id="@+id/spinnerPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/game_filter_btnApply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Apply" />
+
+        <Button
+            android:id="@+id/game_filter_btnReset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Remove" />
+    </LinearLayout>
+
+</LinearLayout>

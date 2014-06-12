@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameMaster</string>
+    <string name="console_icon_description">Console icon</string>
+    <string name="game_icon_description">Game icon</string>
+    <string name="btn_cancel_text">Cancel</string>
+    <string name="game_list_activity_menu_filter_text">Filter&#8230;</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regions>
+    <region id="1" code="NA">North America</region>
+    <region id="2" code="EU">Europe</region>
+    <region id="3" code="FR">France</region>
+    <region id="4" code="KR">Crotia</region>
+    <region id="5" code="JP">Japan</region>
+    <region id="6" code="AU">Australia</region>
+    <region id="7" code="CN">China</region>
+    <region id="8" code="BR">Brazil</region>
+    <region id="9" code="GE">Germany</region>
+    <region id="10" code="MX">Mexico</region>
+    <region id="11" code="AS">Asia</region>
+    <region id="12" code="KO">Korea</region>
+    <region id="13" code="SA">South America</region>
+</regions>

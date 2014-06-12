@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+    <company id="1" code="DATA_EAST">Data East</company>
+    <company id="2" code="WAVEQUEST">WaveQuest</company>
+    <company id="3" code="TIERTEX">Tiertex</company>
+    <company id="4" code="NIHON_FALCOM">Nihon Falcom</company>
+    <company id="5" code="SETA">SETA</company>
+    <company id="6" code="EQUILIBRIUM">Equilibrium</company>
+    <company id="7" code="PF_MAGIC">PF Magic</company>
+    <company id="8" code="IMAGETEC_DESIGN_INC">Imagetec Desing Inc.</company>
+    <company id="9" code="RADIANCE_SOFTWARE">Radiance Software</company>
+    <company id="10" code="PRODUCE">Produce</company>
+    <company id="11" code="MALIBU_INTERACTIVE">Malibu Interactive</company>
+    <company id="12" code="ASMIK">Asmik</company>
+    <company id="13" code="HAL_LABORATORY">HAL Laboratory</company>
+    <company id="14" code="KOEI">Koei</company>
+    <company id="15" code="VIDEO_SYSTEM">Video System</company>
+    <company id="16" code="KANEKO">Kaneko</company>
+    <company id="17" code="SCULPTURED_SOFTWARE">Sculptured Software</company>
+    <company id="18" code="OCEAN_SOFTWARE">Ocean Software</company>
+    <company id="19" code="TAKARA">Takara</company>
+    <company id="20" code="HUDSON_SOFT">Hudson Soft</company>
+    <company id="21" code="CAPCOM">Capcom</company>
+    <company id="22" code="TECHNOS_JAPAN">Technos Japan</company>
+    <company id="23" code="IGUANA_ENTERTAINMENT">Iguana Entertainment</company>
+    <company id="24" code="BLACK_PEARL_SOFTWARE">Black Pearl Software</company>
+    <company id="25" code="VISUAL_CONCEPTS">Visual Concepts</company>
+    <company id="26" code="NINTENDO">Nintendo</company>
+    <company id="27" code="ACCLAIM_ENTERTAINMENT">Acclaim Entertainment</company>
+    <company id="28" code="MINDSCAPE">Mindscape</company>
+    <company id="29" code="TAXAN">Taxan</company>
+    <company id="30" code="MILTON_BRADLEY_COMPANY">Milton Bradley Company</company>
+    <company id="31" code="FCI">FCI</company>
+    <company id="32" code="KONAMI">Konami</company>
+    <company id="33" code="BANDAI">Bandai</company>
+    <company id="34" code="ACTIVISION">Activision</company>
+    <company id="35" code="THQ">THQ</company>
+    <company id="36" code="VIRGIN_INTERACTIVE">Virgin Interactive</company>
+    <company id="37" code="ACCOLADE">Accolade</company>
+    <company id="38" code="HAL_AMERICA">HAL America</company>
+    <company id="39" code="RAYA_SYSTEMS">Raya Systems</company>
+    <company id="40" code="ENIX">Enix</company>
+    <company id="41" code="SONY_IMAGESOFT">Sony Imagesoft</company>
+    <company id="42" code="GAMETEK">GameTek</company>
+    <company id="43" code="TECMAGIK">TecMagik</company>
+    <company id="44" code="AMERICAN_TECHNOS">American Technos</company>
+    <company id="45" code="MC_O_RIVER_INC">Mc O'River Inc.</company>
+    <company id="46" code="EA_SPORTS">EA Sports</company>
+    <company id="47" code="PARKER_BROTHERS">Parker Brothers</company>
+    <company id="48" code="INTERPLAY">Interplay</company>
+    <company id="49" code="SQUARE">Square</company>
+    <company id="50" code="INFOGRAMES">Infogrames</company>
+    <company id="51" code="MICROPROSE">Microprose</company>
+    <company id="52" code="KEMCO">Kemco</company>
+    <company id="53" code="TRIFFIX">Triffix</company>
+    <company id="54" code="ALMANIC">Almanic</company>
+    <company id="55" code="AMERICAN_SAMMY">American Sammy</company>
+    <company id="56" code="BITMASTERS">Bitmasters</company>
+    <company id="57" code="JVC">JVC</company>
+    <company id="58" code="RARE">Rare</company>
+    <company id="59" code="IMAGINEERING">Imagineering</company>
+    <company id="60" code="ATLUS">Atlus</company>
+    <company id="61" code="NAMCO">Namco</company>
+    <company id="62" code="TAITO">Taito</company>
+    <company id="63" code="JALECO">Jaleco</company>
+    <company id="64" code="ACCOLADE_SPORT">Accolade Sport</company>
+    <company id="65" code="SPECTRUM_HOLOBYTE">Spectrum Holobyte</company>
+    <company id="66" code="AI">AI</company>
+    <company id="67" code="ADRENALIN_ENTERTAINMENT">Adrenalin Entertainment</company>
+    <company id="68" code="PLAYMATES_INTERACTIVE">Playmates Interactive</company>
+    <company id="69" code="MANDINGO_ENTERTAINMENT">Mandingo Entertainment</company>
+    <company id="70" code="ABSOLUTE_ENTERTAINMENT">Absolute Entertainment</company>
+    <company id="71" code="TELENET">Telenet</company>
+    <company id="72" code="MALIBU_GAMES">Malibu Games</company>
+    <company id="73" code="ARTECH_DIGITAL_ENTERTAINMENT">Artech Digital Entertainment</company>
+    <company id="74" code="BULLET_PROOF_SOFTWARE">Bullet-Proof Software</company>
+    <company id="75" code="TEAM_R">Team R</company>
+    <company id="76" code="RENOVATION_PRODUCTS">Renovation Products</company>
+    <company id="77" code="XANTH_SOFTWARE">Xanth Software</company>
+    <company id="78" code="SOFTWARE_CREATIONS">Software Creations</company>
+    <company id="79" code="HI_TECH_EXPRESSIONS">Hi Tech Expressions</company>
+    <company id="80" code="VIC_TOKAI">Vic Tokai</company>
+    <company id="81" code="STARFISH_INC">Starfish Inc.</company>
+    <company id="82" code="STING">Sting</company>
+    <company id="83" code="BEAM_SOFTWARE">Beam Software</company>
+    <company id="84" code="PLAYMATES">Playmates</company>
+    <company id="85" code="GTE_ENTERTAINMENT">GTE Entertainment</company>
+    <company id="86" code="GTE_VANTAGE_INC">GTE Vantage Inc.</company>
+    <company id="87" code="DTMC">DTMC</company>
+    <company id="88" code="HECT_AXES_ART_AMUSER">Hect Axes Art Amuser</company>
+    <company id="89" code="HOT_B">Hot-B</company>
+    <company id="90" code="STRATEGIC_SIMULATIONS_INC">Strategic Simulations</company>
+    <company id="91" code="RADICAL_ENTERTAINMENT">Radical Entertainment</company>
+    <company id="92" code="SAMMY">Sammy</company>
+    <company id="93" code="ELECTRONIC_ARTS">Electronic Arts</company>
+    <company id="94" code="TIBURON_ENTERTAINMENT">Tiburon Entertainment</company>
+    <company id="95" code="MIRRORSOFT">Mirrorsoft</company>
+    <company id="96" code="PARK_PLACE_PRODUCTIONS">Park Place Productions</company>
+</companies>

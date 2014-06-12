@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="background">#ff006f9a</item>
+        <item name="android:background">#ff006f9a</item>
+        <item name="backgroundStacked">@drawable/grayheader</item>
+        <item name="android:backgroundStacked">@drawable/grayheader</item>
+    </style>
+    
+</resources>
